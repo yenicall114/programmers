@@ -9,5 +9,5 @@
 // }
 
 function solution(array, n) {
-  return array.filter(a => a === n).length;
+  return array.filter(el => el === n).length;
 }
