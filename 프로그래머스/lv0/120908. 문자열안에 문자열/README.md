@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 33.5 MB, 시간: 0.04 ms
+메모리: 33.5 MB, 시간: 0.02 ms
 
 ### 구분
 
@@ -33,7 +33,7 @@
 <table class="table">
         <thead><tr>
 <th>str1</th>
-<th>str1</th>
+<th>str2</th>
 <th>result</th>
 </tr>
 </thead>
