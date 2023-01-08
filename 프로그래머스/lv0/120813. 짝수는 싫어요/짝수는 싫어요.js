@@ -1,7 +1,3 @@
 function solution(n) {
-    let arr = []
-    for (let i = 0; i <= n; i++) {
-        if (i % 2 != 0) arr.push(i)
-    }
-    return arr
-} 
+    return Array.from({ length: n }, (_, i) => i + 1).filter(el => el % 2 !== 0)
+}
