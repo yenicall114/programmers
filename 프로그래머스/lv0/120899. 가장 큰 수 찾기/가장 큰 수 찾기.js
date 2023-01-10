@@ -1,7 +1,8 @@
 function solution(array) {
-    var answer = [];
-    const max = Math.max(...array);
-    const i = array.indexOf(max)
-    answer = [max, i]
-    return answer;
+    const result = []
+    
+    result.push(Math.max(...array))
+    result.push(array.indexOf(Math.max(...array)))
+    
+    return result
 }
